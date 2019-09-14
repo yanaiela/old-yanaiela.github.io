@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
+      <atom:link href="https://yanaiela.github.io/authors/yanai-elazar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanai Elazar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sat, 14 Sep 2019 17:04:39 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Yanai Elazar</title>
+      <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
+    </image>
+    
+    <item>
+      <title>How Large Are Lions? Inducing Distributions over Quantitative Attributes</title>
+      <link>https://yanaiela.github.io/publication/doq/</link>
+      <pubDate>Sat, 14 Sep 2019 17:04:39 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/doq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where&#39;s My Head? Definition, Dataset and Models for Numeric Fused-Heads Identification and Resolution</title>
+      <link>https://yanaiela.github.io/publication/num-fh/</link>
+      <pubDate>Fri, 13 Sep 2019 17:09:52 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/num-fh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy and Fairness in Recommender Systems via Adversarial Training of User Representations</title>
+      <link>https://yanaiela.github.io/publication/privacy-recsys/</link>
+      <pubDate>Wed, 11 Sep 2019 17:10:02 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/privacy-recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Removal of Demographic Attributes from Text Data</title>
+      <link>https://yanaiela.github.io/publication/demog-text-removal/</link>
+      <pubDate>Tue, 10 Sep 2019 17:09:43 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/demog-text-removal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Servers</title>
+      <link>https://yanaiela.github.io/post/remote-servers/</link>
+      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
+      <guid>https://yanaiela.github.io/post/remote-servers/</guid>
+      <description>
+
+&lt;p&gt;For the past several years, I&amp;rsquo;ve been working on data-science/research projects, starting in the industry and a couple of undergraduate assignments and more recently by doing research as a graduate student.
+As someone who likes a convenient environment, I always like to improve the way I work and automate routine dull processes. In this first post of mine, I&amp;rsquo;ll describe how I make my environment more convenient to work with.&lt;/p&gt;
+
+&lt;p&gt;The setup with which I work with contains the following components:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My personal computer (linux distro)&lt;/li&gt;
+&lt;li&gt;A gateway machine&lt;/li&gt;
+&lt;li&gt;Remote servers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yanaiela.github.io/img/server-setup.png&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As I usually work on computational greedy projects, the usage of my laptop is out of the question. Therefore I need a constant connection to those machines. For security reasons, the remote servers are not directly accessible, meaning they can only be reached by the gateway machine.&lt;/p&gt;
+
+&lt;p&gt;The basic way of connecting to the servers is to first connect with ssh to the gateway and then ssh again to the server which requires entering the user and password at every connection. This is rather cumbersome and gets annoying after the first time. We will go through the steps on how to easily connect to both servers with a single command.&lt;/p&gt;
+
+&lt;h2 id=&#34;making-ssh-great-again&#34;&gt;Making SSH Great Again&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-few-words-on-ssh&#34;&gt;A few words on SSH&lt;/h3&gt;
+
+&lt;p&gt;SSH (Secure Shell), is a secure protocol, which allows the users to control the server they connect to.
+The common way of connecting to a remote server using ssh is by the following command: &lt;code&gt;ssh user@host&lt;/code&gt;, which will then result in a password prompt.
+In this post I won&amp;rsquo;t get into the details on how ssh works, but only assume the basic usage knowledge.&lt;/p&gt;
+
+&lt;h3 id=&#34;connect-w-o-the-need-of-a-password&#34;&gt;Connect w/o the need of a password&lt;/h3&gt;
+
+&lt;p&gt;We are going to create an authentication key and transfer the public one to the server we wish to connect to.
+Let&amp;rsquo;s begin by setting up the first connection - from the laptop to the gateaway.&lt;/p&gt;
+
+&lt;p&gt;We will use a nice little software named ssh-copy. It does all the work for us and all we need to do is to type the following line in a terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa  # create an SSH key, if needed.
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@host
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Linux users should already have this software installed.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mac users will need to install the ssh-copy tool by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install ssh-copy-id
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The ssh-copy-id command will copy your SSH key to the server, create the appropriate ssh folder, if needed and finally append the public key as an authorized key in the server .ssh/authorized_keys file.&lt;/p&gt;
+
+&lt;p&gt;If for some reason this doesn&amp;rsquo;t work, just copy-paste the following commands, which is basically what ssh-copy does:&lt;/p&gt;
+
+&lt;p&gt;Open a terminal and run the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Generate a pair of authentication keys. You will be asked to enter a passphrase, which is optional.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;create a &lt;code&gt;.ssh&lt;/code&gt; folder on the remote machine (if it doesn&amp;rsquo;t exist already)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh user@host mkdir -p .ssh
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Append the public key you generated earlier to the remote machine (this is the last time you enter your password, hopefully).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cat .ssh/id_rsa.pub | ssh user@host &#39;cat &amp;gt;&amp;gt; .ssh/authorized_keys&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! from now on you can reach the server easily without the need of a password&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh user@host
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For reaching the servers machines from the gateway follow the same steps (if it wasn&amp;rsquo;t already configured).&lt;/p&gt;
+
+&lt;h3 id=&#34;convenient-sshing&#34;&gt;Convenient SSHing&lt;/h3&gt;
+
+&lt;p&gt;Now that we got a bit more sophisticated, turns out we can do better. Instead of ssh&amp;rsquo;ing the whole hostname + username every time, we can make it more convenient - both for the gateway, and the proxied machines.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code&gt;~/.ssh/config&lt;/code&gt; file on the local computer, insert the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host gate
+ HostName [gateway.name]
+    User [user]
+
+Host work1
+ HostName [machine.name]
+ user [user]
+ ProxyCommand ssh gate nc %h %p
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There&amp;rsquo;s another useful configuration argument called &amp;lsquo;IdentityFile&amp;rsquo; that is useful when working with multiple public/private keypairs.
+Let&amp;rsquo;s say you have a github account for work, besides the private one, which you use for your personal projects. You&amp;rsquo;ll need another public-private key pair for it, but you still want a convenient interface with it. Here is an example for how to set it up in the config file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host company-github
+    User git
+    HostName company.github.com
+    IdentityFile ~/.ssh/github.comp.key
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Each ssh connection will use the appropriate key for the required connection.&lt;/p&gt;
+
+&lt;p&gt;We can add all the remote servers in a similar manner, for allowing an easy connection for each server.&lt;/p&gt;
+
+&lt;p&gt;Now, a simple command of &lt;code&gt;ssh gate&lt;/code&gt; or &lt;code&gt;ssh work1&lt;/code&gt; will bring us directly to the gateway or work1 servers respectively, with no need for any password or another connection.&lt;/p&gt;
+
+&lt;h2 id=&#34;tunneling&#34;&gt;Tunneling&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yanaiela.github.io/img/tunnel.jpeg&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we have a convenient access to the remote servers, we can use tunneling for achieving a seamless access to the servers&amp;rsquo; resources in our computer. This way, we can for example run a Jupyter notebook on a remote machine (with lots of memory) and interact with it on our browser. It allows us:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To turn off the computer and keep the notebook running on the server.&lt;/li&gt;
+&lt;li&gt;To open and access the same notebook even from another computer.&lt;/li&gt;
+&lt;li&gt;To keep models loaded on the remote server. Meaning we load once and access forever (or until the admins will perform a restart)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example if we want to open a notebook on the server &lt;code&gt;work1&lt;/code&gt; on port &lt;code&gt;9100&lt;/code&gt;, we will open a tunnel to our computer on port &lt;code&gt;9200&lt;/code&gt; with the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh -N -f -L localhost:9200:localhost:9100 work1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;tunneling-with-fun&#34;&gt;Tunneling with Fun&lt;/h3&gt;
+
+&lt;p&gt;Now that you know how to set up a tunnel, you would start doing it all the time (at least I do).
+To give you a real-life example, I am using tunneling mainly for &lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34;&gt;Jupyter notebooks&lt;/a&gt; and for &lt;a href=&#34;https://www.tensorflow.org/guide/summaries_and_tensorboard&#34; target=&#34;_blank&#34;&gt;Tensorboard&lt;/a&gt;. The Tensorboard server doesn&amp;rsquo;t consume many resources, but the notebooks sometimes do. As I use different machines for different projects (to balance loadings), and therefore different tunnels , I couldn&amp;rsquo;t recall what port is used for what application, not to mention on which server.&lt;/p&gt;
+
+&lt;p&gt;As eventually, we forward to our own machine, the only controled variables are the port numbers, and well, numbers are forgotten quickly.
+I recently found a partial solution for that. Instead of opening the applications on localhost:xxxx I generated new domain names, which are just forwarding to the localhost host.
+This doesn&amp;rsquo;t solve the ports problem, but now as each application gets its own name, there&amp;rsquo;s no confusion, and after a usage or two, modern browsers will remember the port, so all you have to remember is the meaningful name you came up with.&lt;/p&gt;
+
+&lt;p&gt;For doing the domain forwarding, do the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Open the &lt;code&gt;/etc/hosts&lt;/code&gt; file with sudo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo [vim|nano|...] /etc/hosts
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You should have the following line somewhere (probably just at the top): &lt;code&gt;127.0.0.1       localhost&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;duplicate that line, and switch the &lt;code&gt;localhost&lt;/code&gt; name with whatever meaningful name you have for your application (for example, &lt;code&gt;tensorboard&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you can find your tensorboard application at &lt;code&gt;tensorboard:8100&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I still don&amp;rsquo;t have a solution to the porting problem, suggestions are welcome.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-convenient-tips&#34;&gt;More Convenient Tips&lt;/h3&gt;
+
+&lt;h4 id=&#34;keep-ssh-open&#34;&gt;Keep SSH Open&lt;/h4&gt;
+
+&lt;p&gt;If you have worked with tunnels for a while, you might have noticed that they tend to not work after several minutes of idle usage. This might be annoying if you are working in parallel on several stuff.
+This reconnecting issue can be solved quite easily by adding a simple line into an ssh configuration file. This way, every &lt;code&gt;x&lt;/code&gt; seconds, a &amp;lsquo;sign-of-life&amp;rsquo; signal will be sent to the server. On your local machine, edit the &lt;code&gt;/etc/ssh/ssh_config&lt;/code&gt; file (with sudo) and enter the following line after the &lt;code&gt;Host *&lt;/code&gt; line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ServerAliveInterval 120
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will apply to all ssh connections. If this might be an issue for you, it&amp;rsquo;s possible to define it only for specific ssh connections by adding the same line to the &lt;code&gt;~/.ssh/config&lt;/code&gt; config file. It will look something like that:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host gate
+ HostName gateway.name
+ User user
+ IdentityFile ~/.ssh/gateway
+ ServerAliveInterval 120
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;automatic-sshing&#34;&gt;Automatic SSHing&lt;/h4&gt;
+
+&lt;p&gt;Now that the tunnels won&amp;rsquo;t shut down while you&amp;rsquo;re still working, things look sweet. But then you go to sleep (sometimes we need to), so you suspend/hibernate your computer (we never really turn it off, do we). Next day, you want to go back and work on your notebook, which you work on locally with the open tunnel, but&amp;hellip; the connection has closed and you need to reopen it.
+After a while, you get tired of this either, luckily there&amp;rsquo;s a solution!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.harding.motd.ca/autossh/&#34; target=&#34;_blank&#34;&gt;autossh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This wonderful program will keep your ssh connection open until you close your computer. But until then, your ssh is safe.
+So for example, you can put your computer to sleep, disconnect the Wifi etc and once you get back online, this program will do the ssh connection for you.&lt;/p&gt;
+
+&lt;p&gt;Install by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install autossh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;now run the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;autossh -M 20000 -N -f -L localhost:9201:localhost:9100 work1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which is very similar to the command we saw before, except the command name (duh) and the &lt;code&gt;-M 20000&lt;/code&gt; flag which is the port where this monitor lives.&lt;/p&gt;
+
+&lt;h2 id=&#34;intellij-integration&#34;&gt;IntelliJ Integration&lt;/h2&gt;
+
+&lt;p&gt;In the Pycharm Professional edition, there&amp;rsquo;s a great feature of connecting to a remote server and work directly on it. You can either write code on your own computer and just run it on the remote server or to fully sync your whole repository on the remote server.&lt;/p&gt;
+
+&lt;p&gt;The interlliJ interface changes from time to time, but the idea is the same. I&amp;rsquo;ll present the steps for a specific version - V. 2018.1.4.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Under Pycharm Settings&lt;/li&gt;
+&lt;li&gt;Build, Execution, Deployment -&amp;gt; Deployment&lt;/li&gt;
+&lt;li&gt;Click on the green + for creating a new Deployment settings&lt;/li&gt;
+&lt;li&gt;Enter the relevant information (Name, host, port:22 usually, Root path and username)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now with a right click on the project folder, under the Deployment key, you will be able to upload, download or sync your project with the remote location (you can also define a shortcut key for that).&lt;/p&gt;
+
+&lt;p&gt;For using a remote interpreter:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to the project settings&lt;/li&gt;
+&lt;li&gt;Under the project interpreters bookmark, near the Project Interpreter option, there should be a small wheel button, for options. Click on it and then click on &amp;lsquo;Add&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;On the left menu, click on SSH Interpreter&lt;/li&gt;
+&lt;li&gt;Click on the &amp;ldquo;Existing server configuration&amp;rdquo; option and use the deployment configuration we created earlier.&lt;/li&gt;
+&lt;li&gt;Choose the remote interpreter (e.g anaconda/python)&lt;/li&gt;
+&lt;li&gt;and&amp;hellip; you&amp;rsquo;re done!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;p&gt;I would like to thank &lt;a href=&#34;http://fredblain.org/&#34; target=&#34;_blank&#34;&gt;Fred Blain&lt;/a&gt;, &lt;a href=&#34;http://u.cs.biu.ac.il/~gonenhi/&#34; target=&#34;_blank&#34;&gt;Hila Gonen&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/amit-moryossef&#34; target=&#34;_blank&#34;&gt;Amit Moryossef&lt;/a&gt;, &lt;a href=&#34;https://il.linkedin.com/in/asaf-amrami-589912bb&#34; target=&#34;_blank&#34;&gt;Asaf Amrami&lt;/a&gt; and &lt;a href=&#34;https://vered1986.github.io&#34; target=&#34;_blank&#34;&gt;Vered Shwartz&lt;/a&gt; for their helpful comments.&lt;/p&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work&#34; target=&#34;_blank&#34;&gt;How does SSH work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxproblem.org/art_9.html&#34; target=&#34;_blank&#34;&gt;SSH login w/o pass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2&#34; target=&#34;_blank&#34;&gt;creating ssh key pair&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lucasb.eyer.be/articles/two-ssh.html&#34; target=&#34;_blank&#34;&gt;2-ssh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ssh.com/ssh/copy-id&#34; target=&#34;_blank&#34;&gt;ssh-copy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/&#34; target=&#34;_blank&#34;&gt;identity file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

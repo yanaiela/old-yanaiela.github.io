@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moni Shahar | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/moni-shahar/</link>
+      <atom:link href="https://yanaiela.github.io/authors/moni-shahar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Moni Shahar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Wed, 11 Sep 2019 17:10:02 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Moni Shahar</title>
+      <link>https://yanaiela.github.io/authors/moni-shahar/</link>
+    </image>
+    
+    <item>
+      <title>Privacy and Fairness in Recommender Systems via Adversarial Training of User Representations</title>
+      <link>https://yanaiela.github.io/publication/privacy-recsys/</link>
+      <pubDate>Wed, 11 Sep 2019 17:10:02 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/privacy-recsys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

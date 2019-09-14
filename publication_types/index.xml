@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/publication_types/</link>
+      <atom:link href="https://yanaiela.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sat, 14 Sep 2019 17:04:39 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>https://yanaiela.github.io/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>1</title>
+      <link>https://yanaiela.github.io/publication_types/1/</link>
+      <pubDate>Sat, 14 Sep 2019 17:04:39 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://yanaiela.github.io/publication_types/2/</link>
+      <pubDate>Fri, 13 Sep 2019 17:09:52 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

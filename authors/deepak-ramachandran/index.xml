@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepak Ramachandran | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/deepak-ramachandran/</link>
+      <atom:link href="https://yanaiela.github.io/authors/deepak-ramachandran/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deepak Ramachandran</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sat, 14 Sep 2019 17:04:39 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Deepak Ramachandran</title>
+      <link>https://yanaiela.github.io/authors/deepak-ramachandran/</link>
+    </image>
+    
+    <item>
+      <title>How Large Are Lions? Inducing Distributions over Quantitative Attributes</title>
+      <link>https://yanaiela.github.io/publication/doq/</link>
+      <pubDate>Sat, 14 Sep 2019 17:04:39 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/doq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

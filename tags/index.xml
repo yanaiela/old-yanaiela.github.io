@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/tags/</link>
+      <atom:link href="https://yanaiela.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Thu, 14 Mar 2019 11:30:08 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://yanaiela.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>linux</title>
+      <link>https://yanaiela.github.io/tags/linux/</link>
+      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
+      <guid>https://yanaiela.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://yanaiela.github.io/tags/ssh/</link>
+      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
+      <guid>https://yanaiela.github.io/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tunnel</title>
+      <link>https://yanaiela.github.io/tags/tunnel/</link>
+      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
+      <guid>https://yanaiela.github.io/tags/tunnel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
