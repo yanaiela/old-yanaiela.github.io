@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonathan Berant | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/jonathan-berant/</link>
+      <atom:link href="https://yanaiela.github.io/authors/jonathan-berant/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonathan Berant</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Fri, 03 Jan 2020 15:21:57 +0200</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Jonathan Berant</title>
+      <link>https://yanaiela.github.io/authors/jonathan-berant/</link>
+    </image>
+    
+    <item>
+      <title>oLMpics -- On what Language Model Pre-training Captures</title>
+      <link>https://yanaiela.github.io/publication/olmpics/</link>
+      <pubDate>Fri, 03 Jan 2020 15:21:57 +0200</pubDate>
+      <guid>https://yanaiela.github.io/publication/olmpics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

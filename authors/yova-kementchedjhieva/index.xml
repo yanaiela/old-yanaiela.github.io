@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yova Kementchedjhieva | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/yova-kementchedjhieva/</link>
+      <atom:link href="https://yanaiela.github.io/authors/yova-kementchedjhieva/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yova Kementchedjhieva</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Fri, 03 Jan 2020 15:16:19 +0200</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <title>Yova Kementchedjhieva</title>
+      <link>https://yanaiela.github.io/authors/yova-kementchedjhieva/</link>
+    </image>
+    
+    <item>
+      <title>Adversarial Removal of Demographic Attributes Revisited</title>
+      <link>https://yanaiela.github.io/publication/adv-rem-rev/</link>
+      <pubDate>Fri, 03 Jan 2020 15:16:19 +0200</pubDate>
+      <guid>https://yanaiela.github.io/publication/adv-rem-rev/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

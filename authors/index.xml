@@ -5,12 +5,76 @@
     <link>https://yanaiela.github.io/authors/</link>
       <atom:link href="https://yanaiela.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sat, 14 Sep 2019 17:04:39 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Fri, 03 Jan 2020 15:21:57 +0200</lastBuildDate>
     <image>
       <url>https://yanaiela.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://yanaiela.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Alon Talmor</title>
+      <link>https://yanaiela.github.io/authors/alon-talmor/</link>
+      <pubDate>Fri, 03 Jan 2020 15:21:57 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/alon-talmor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonathan Berant</title>
+      <link>https://yanaiela.github.io/authors/jonathan-berant/</link>
+      <pubDate>Fri, 03 Jan 2020 15:21:57 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/jonathan-berant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yanai Elazar</title>
+      <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
+      <pubDate>Fri, 03 Jan 2020 15:21:57 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/yanai-elazar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yoav Goldberg</title>
+      <link>https://yanaiela.github.io/authors/yoav-goldberg/</link>
+      <pubDate>Fri, 03 Jan 2020 15:21:57 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/yoav-goldberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anders Søgaard</title>
+      <link>https://yanaiela.github.io/authors/anders-s%C3%B8gaard/</link>
+      <pubDate>Fri, 03 Jan 2020 15:16:19 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/anders-s%C3%B8gaard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desmond Elliott</title>
+      <link>https://yanaiela.github.io/authors/desmond-elliott/</link>
+      <pubDate>Fri, 03 Jan 2020 15:16:19 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/desmond-elliott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maria Barrett</title>
+      <link>https://yanaiela.github.io/authors/maria-barrett/</link>
+      <pubDate>Fri, 03 Jan 2020 15:16:19 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/maria-barrett/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yova Kementchedjhieva</title>
+      <link>https://yanaiela.github.io/authors/yova-kementchedjhieva/</link>
+      <pubDate>Fri, 03 Jan 2020 15:16:19 +0200</pubDate>
+      <guid>https://yanaiela.github.io/authors/yova-kementchedjhieva/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Abhijit Mahabal</title>
@@ -45,22 +109,6 @@
     </item>
     
     <item>
-      <title>Yanai Elazar</title>
-      <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
-      <pubDate>Sat, 14 Sep 2019 17:04:39 +0300</pubDate>
-      <guid>https://yanaiela.github.io/authors/yanai-elazar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yoav Goldberg</title>
-      <link>https://yanaiela.github.io/authors/yoav-goldberg/</link>
-      <pubDate>Fri, 13 Sep 2019 17:09:52 +0300</pubDate>
-      <guid>https://yanaiela.github.io/authors/yoav-goldberg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Moni Shahar</title>
       <link>https://yanaiela.github.io/authors/moni-shahar/</link>
       <pubDate>Wed, 11 Sep 2019 17:10:02 +0300</pubDate>
@@ -89,9 +137,8 @@
       <link>https://yanaiela.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanaiela.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a first year Phd student in the &lt;a href=&#34;http://u.cs.biu.ac.il/~nlp/&#34; target=&#34;_blank&#34;&gt;Natural Language Processing Lab&lt;/a&gt; at &lt;a href=&#34;http://cs.biu.ac.il&#34; target=&#34;_blank&#34;&gt;Bar-Ilan University&lt;/a&gt;, under the supervision of &lt;a href=&#34;https://www.cs.bgu.ac.il/~yoavg/uni/&#34; target=&#34;_blank&#34;&gt;Prof. Yoav Goldberg&lt;/a&gt;.&lt;br /&gt;
-I also work as a research intern at &lt;a href=&#34;https://allenai.org/ai2-israel/&#34; target=&#34;_blank&#34;&gt;AI2 Israel&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;I am a first year Phd student in the &lt;a href=&#34;http://u.cs.biu.ac.il/~nlp/&#34;&gt;Natural Language Processing Lab&lt;/a&gt; at &lt;a href=&#34;http://cs.biu.ac.il&#34;&gt;Bar-Ilan University&lt;/a&gt;, under the supervision of &lt;a href=&#34;https://www.cs.bgu.ac.il/~yoavg/uni/&#34;&gt;Prof. Yoav Goldberg&lt;/a&gt;.&lt;br&gt;
+I also work as a research intern at &lt;a href=&#34;https://allenai.org/ai2-israel/&#34;&gt;AI2 Israel&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My interests lie between Natural Language Processing and Machine Learning.&lt;/p&gt;
 </description>
     </item>
