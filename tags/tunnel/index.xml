@@ -7,7 +7,7 @@
     <description>tunnel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Thu, 14 Mar 2019 11:30:08 +0300</lastBuildDate>
     <image>
-      <url>https://yanaiela.github.io/img/icon-192.png</url>
+      <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>tunnel</title>
       <link>https://yanaiela.github.io/tags/tunnel/</link>
     </image>
@@ -94,7 +94,11 @@ Let&#39;s say you have a github account for work, besides the private one, which
 &lt;pre&gt;&lt;code&gt;ssh -N -f -L localhost:9200:localhost:9100 work1
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;tunneling-with-fun&#34;&gt;Tunneling with Fun&lt;/h3&gt;
 &lt;p&gt;Now that you know how to set up a tunnel, you would start doing it all the time (at least I do).
-To give you a real-life example, I am using tunneling mainly for &lt;a href=&#34;https://jupyter.org/&#34;&gt;Jupyter notebooks&lt;/a&gt; and for &lt;a href=&#34;https://www.tensorflow.org/guide/summaries_and_tensorboard&#34;&gt;Tensorboard&lt;/a&gt;. The Tensorboard server doesn&#39;t consume many resources, but the notebooks sometimes do. As I use different machines for different projects (to balance loadings), and therefore different tunnels , I couldn&#39;t recall what port is used for what application, not to mention on which server.&lt;/p&gt;
+To give you a real-life example, I am using tunneling mainly for 
+&lt;a href=&#34;https://jupyter.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jupyter notebooks&lt;/a&gt;
+ and for 
+&lt;a href=&#34;https://www.tensorflow.org/guide/summaries_and_tensorboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tensorboard&lt;/a&gt;
+. The Tensorboard server doesn&#39;t consume many resources, but the notebooks sometimes do. As I use different machines for different projects (to balance loadings), and therefore different tunnels , I couldn&#39;t recall what port is used for what application, not to mention on which server.&lt;/p&gt;
 &lt;p&gt;As eventually, we forward to our own machine, the only controled variables are the port numbers, and well, numbers are forgotten quickly.
 I recently found a partial solution for that. Instead of opening the applications on localhost:xxxx I generated new domain names, which are just forwarding to the localhost host.
 This doesn&#39;t solve the ports problem, but now as each application gets its own name, there&#39;s no confusion, and after a usage or two, modern browsers will remember the port, so all you have to remember is the meaningful name you came up with.&lt;/p&gt;
@@ -123,7 +127,9 @@ This reconnecting issue can be solved quite easily by adding a simple line into 
 &lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;automatic-sshing&#34;&gt;Automatic SSHing&lt;/h4&gt;
 &lt;p&gt;Now that the tunnels won&#39;t shut down while you&#39;re still working, things look sweet. But then you go to sleep (sometimes we need to), so you suspend/hibernate your computer (we never really turn it off, do we). Next day, you want to go back and work on your notebook, which you work on locally with the open tunnel, but&amp;hellip; the connection has closed and you need to reopen it.
 After a while, you get tired of this either, luckily there&#39;s a solution!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.harding.motd.ca/autossh/&#34;&gt;autossh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.harding.motd.ca/autossh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;autossh&lt;/a&gt;
+&lt;/p&gt;
 &lt;p&gt;This wonderful program will keep your ssh connection open until you close your computer. But until then, your ssh is safe.
 So for example, you can put your computer to sleep, disconnect the Wifi etc and once you get back online, this program will do the ssh connection for you.&lt;/p&gt;
 &lt;p&gt;Install by running:&lt;/p&gt;
@@ -151,15 +157,37 @@ So for example, you can put your computer to sleep, disconnect the Wifi etc and 
 &lt;li&gt;and&amp;hellip; you&#39;re done!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
-&lt;p&gt;I would like to thank &lt;a href=&#34;http://fredblain.org/&#34;&gt;Fred Blain&lt;/a&gt;, &lt;a href=&#34;http://u.cs.biu.ac.il/~gonenhi/&#34;&gt;Hila Gonen&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/amit-moryossef&#34;&gt;Amit Moryossef&lt;/a&gt;, &lt;a href=&#34;https://il.linkedin.com/in/asaf-amrami-589912bb&#34;&gt;Asaf Amrami&lt;/a&gt; and &lt;a href=&#34;https://vered1986.github.io&#34;&gt;Vered Shwartz&lt;/a&gt; for their helpful comments.&lt;/p&gt;
+&lt;p&gt;I would like to thank 
+&lt;a href=&#34;http://fredblain.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fred Blain&lt;/a&gt;
+, 
+&lt;a href=&#34;http://u.cs.biu.ac.il/~gonenhi/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hila Gonen&lt;/a&gt;
+, 
+&lt;a href=&#34;https://www.linkedin.com/in/amit-moryossef&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amit Moryossef&lt;/a&gt;
+, 
+&lt;a href=&#34;https://il.linkedin.com/in/asaf-amrami-589912bb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asaf Amrami&lt;/a&gt;
+ and 
+&lt;a href=&#34;https://vered1986.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vered Shwartz&lt;/a&gt;
+ for their helpful comments.&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work&#34;&gt;How does SSH work&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.linuxproblem.org/art_9.html&#34;&gt;SSH login w/o pass&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2&#34;&gt;creating ssh key pair&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://lucasb.eyer.be/articles/two-ssh.html&#34;&gt;2-ssh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ssh.com/ssh/copy-id&#34;&gt;ssh-copy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/&#34;&gt;identity file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How does SSH work&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://www.linuxproblem.org/art_9.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSH login w/o pass&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;creating ssh key pair&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://lucasb.eyer.be/articles/two-ssh.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2-ssh&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.ssh.com/ssh/copy-id&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ssh-copy&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;identity file&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
