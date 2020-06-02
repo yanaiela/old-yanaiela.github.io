@@ -12,29 +12,5 @@
       <link>https://yanaiela.github.io/tags/</link>
     </image>
     
-    <item>
-      <title>linux</title>
-      <link>https://yanaiela.github.io/tags/linux/</link>
-      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
-      <guid>https://yanaiela.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ssh</title>
-      <link>https://yanaiela.github.io/tags/ssh/</link>
-      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
-      <guid>https://yanaiela.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tunnel</title>
-      <link>https://yanaiela.github.io/tags/tunnel/</link>
-      <pubDate>Thu, 14 Mar 2019 11:30:08 +0300</pubDate>
-      <guid>https://yanaiela.github.io/tags/tunnel/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
