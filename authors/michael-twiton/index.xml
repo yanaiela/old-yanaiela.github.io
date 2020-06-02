@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Twiton | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/michael-twiton/</link>
+      <atom:link href="https://yanaiela.github.io/authors/michael-twiton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michael Twiton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Mon, 01 Jun 2020 00:39:19 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Michael Twiton</title>
+      <link>https://yanaiela.github.io/authors/michael-twiton/</link>
+    </image>
+    
+    <item>
+      <title>Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection</title>
+      <link>https://yanaiela.github.io/publication/null-it-out/</link>
+      <pubDate>Mon, 01 Jun 2020 00:39:19 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/null-it-out/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
