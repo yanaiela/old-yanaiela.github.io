@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACL | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/tags/acl/</link>
+      <atom:link href="https://yanaiela.github.io/tags/acl/index.xml" rel="self" type="application/rss+xml" />
+    <description>ACL</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sun, 05 Jul 2020 01:26:41 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>ACL</title>
+      <link>https://yanaiela.github.io/tags/acl/</link>
+    </image>
+    
+    <item>
+      <title>Attending ACL2020</title>
+      <link>https://yanaiela.github.io/post/attending-acl2020/</link>
+      <pubDate>Sun, 05 Jul 2020 01:26:41 +0300</pubDate>
+      <guid>https://yanaiela.github.io/post/attending-acl2020/</guid>
+      <description>&lt;h1 id=&#34;attending-acl2020-from-remote&#34;&gt;Attending ACL2020 (From Remote)&lt;/h1&gt;
+&lt;p&gt;Tomorrow (July 5th, 2020) is the first day of 
+&lt;a href=&#34;https://acl2020.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL&lt;/a&gt;, and this year, as opposed to what we are used to, it will be held online.
+It is very unfortunate that we have to attend the conference on remote, however, it also allows more people to attend, which is a good thing! As such, some lab mates asked me about my strategy for attending this conference. Honestly, I don&amp;rsquo;t know. The organizers put a lot of effort into putting an impressive website, but the entire situation is quite overwhelming: the various types of &amp;ldquo;meetings&amp;rdquo;, the huge amount of papers (all of which are recorded, etc.), the chat, the livestream, etc.&lt;/p&gt;
+&lt;p&gt;So honestly, I&amp;rsquo;m not yet sure how I am going to go through this conference, but I have an initial strategy, which I will explain here.&lt;/p&gt;
+&lt;h2 id=&#34;past-conferences&#34;&gt;Past Conferences&lt;/h2&gt;
+&lt;p&gt;For me, a big part of the conference is the human interaction: meeting old friends, making new ones. In some places, I also enjoy the food (e.g. ACL 2019).
+Unfortunately, this will be harder this year, but I think it&amp;rsquo;s still worth trying! There are 
+&lt;a href=&#34;https://virtual.acl2020.org/socials.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;social&lt;/a&gt; rooms to interact with people of common interests, and the QA sessions (which we have plenty of) can also fill this need.&lt;/p&gt;
+&lt;p&gt;In terms of learning about new works, I find it hard to listen to talks (I get distracted quickly) and since there are many opportunities outside these rooms (i.e. meet new people!) I usually spend my time outside of these rooms, wondering around poster sessions, or just talking with colleagues.
+This time, I think I&amp;rsquo;ll attend many more talks and kudos to 
+&lt;a href=&#34;https://twitter.com/amitmoryossef/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@amitmoryossef&lt;/a&gt; for making us able to listen to them in a 
+&lt;a href=&#34;https://twitter.com/amitmoryossef/status/1279450080081313792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable speed&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id=&#34;my-schedule&#34;&gt;My Schedule&lt;/h2&gt;
+&lt;p&gt;My current plan for the next few days is to talk with people, through the Q&amp;amp;A sessions and the social events, and, well to learn some new stuff.
+I skimmed through some tracks that interest me and marked myself the papers that look interesting. I added each of these papers&amp;rsquo; Q&amp;amp;A session to my calendar.
+Moreover, each paper&amp;rsquo;s page, have also some recommendations for related paper, which sometimes works! so it&amp;rsquo;s worth checking it out.&lt;/p&gt;
+&lt;p&gt;Every day, my plan is to watch the pre-recorded videos in the morning of that day, and then, if I found these talks interesting, go to the Q&amp;amp;A session, which is happening that day. This way I&amp;rsquo;ll already have a notion of what&amp;rsquo;s going on in that work, and get to talk to the authors in person.&lt;/p&gt;
+&lt;p&gt;In our 
+&lt;a href=&#34;https://biu-nlp.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIU lab&lt;/a&gt; we have started a google-sheet where the members can add papers they thought are interesting from the conference. This is another exploratory way to get to know new works.&lt;/p&gt;
+&lt;p&gt;I am still working on my routine, how to maximize the benefits of this conference, and how to digest it. It is not perfect, but this is my plan, at least for now.&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s a shame we cannot attend the conference in person this year, and hopefully, we&amp;rsquo;ll get to do so next year. But for now, let&amp;rsquo;s try to make the most out of what we &lt;em&gt;do&lt;/em&gt; have! A broader audience that can attend, a chance to get to know much more interesting work, and all of it from our cozy homes.&lt;/p&gt;
+&lt;h4 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h4&gt;
+&lt;p&gt;I would like to thank 
+&lt;a href=&#34;https://www.linkedin.com/in/amit-moryossef&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amit Moryossef&lt;/a&gt;, for his helpful comments, in the middle of the night.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
