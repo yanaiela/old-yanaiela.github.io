@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sameer Singh | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/sameer-singh/</link>
+      <atom:link href="https://yanaiela.github.io/authors/sameer-singh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sameer Singh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Sat, 25 Apr 2020 17:22:37 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sameer Singh</title>
+      <link>https://yanaiela.github.io/authors/sameer-singh/</link>
+    </image>
+    
+    <item>
+      <title>Evaluating nlp models via contrast sets</title>
+      <link>https://yanaiela.github.io/publication/contrast-sets/</link>
+      <pubDate>Sat, 25 Apr 2020 17:22:37 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/contrast-sets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
