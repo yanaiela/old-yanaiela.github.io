@@ -31,7 +31,7 @@ This time, I think I&amp;rsquo;ll attend many more talks and kudos to
 &lt;a href=&#34;https://twitter.com/amitmoryossef/status/1279450080081313792&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable speed&lt;/a&gt;!&lt;/p&gt;
 &lt;h2 id=&#34;my-schedule&#34;&gt;My Schedule&lt;/h2&gt;
 &lt;p&gt;My current plan for the next few days is to talk with people, through the Q&amp;amp;A sessions and the social events, and, well to learn some new stuff.
-I skimmed through some tracks that interest me and marked myself the papers that look interesting. I added each of these papers&amp;rsquo; Q&amp;amp;A session to my calendar.
+I skimmed through some tracks that interest me and marked myself the papers that look interesting. I added each of these papers&#39; Q&amp;amp;A session to my calendar.
 Moreover, each paper&amp;rsquo;s page, have also some recommendations for related paper, which sometimes works! so it&amp;rsquo;s worth checking it out.&lt;/p&gt;
 &lt;p&gt;Every day, my plan is to watch the pre-recorded videos in the morning of that day, and then, if I found these talks interesting, go to the Q&amp;amp;A session, which is happening that day. This way I&amp;rsquo;ll already have a notion of what&amp;rsquo;s going on in that work, and get to talk to the authors in person.&lt;/p&gt;
 &lt;p&gt;In our 
@@ -117,7 +117,7 @@ Let&amp;rsquo;s say you have a github account for work, besides the private one,
 &lt;p&gt;Now, a simple command of &lt;code&gt;ssh gate&lt;/code&gt; or &lt;code&gt;ssh work1&lt;/code&gt; will bring us directly to the gateway or work1 servers respectively, with no need for any password or another connection.&lt;/p&gt;
 &lt;h2 id=&#34;tunneling&#34;&gt;Tunneling&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://yanaiela.github.io/img/tunnel.jpeg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Now that we have a convenient access to the remote servers, we can use tunneling for achieving a seamless access to the servers&amp;rsquo; resources in our computer. This way, we can for example run a Jupyter notebook on a remote machine (with lots of memory) and interact with it on our browser. It allows us:&lt;/p&gt;
+&lt;p&gt;Now that we have a convenient access to the remote servers, we can use tunneling for achieving a seamless access to the servers&#39; resources in our computer. This way, we can for example run a Jupyter notebook on a remote machine (with lots of memory) and interact with it on our browser. It allows us:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;To turn off the computer and keep the notebook running on the server.&lt;/li&gt;
 &lt;li&gt;To open and access the same notebook even from another computer.&lt;/li&gt;

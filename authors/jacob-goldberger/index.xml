@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacob Goldberger | Yanai Elazar</title>
+    <link>https://yanaiela.github.io/authors/jacob-goldberger/</link>
+      <atom:link href="https://yanaiela.github.io/authors/jacob-goldberger/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jacob Goldberger</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Tue, 20 Oct 2020 09:11:02 +0300</lastBuildDate>
+    <image>
+      <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Jacob Goldberger</title>
+      <link>https://yanaiela.github.io/authors/jacob-goldberger/</link>
+    </image>
+    
+    <item>
+      <title>Unsupervised Distillation of Syntactic Information from Contextualized Word Representations</title>
+      <link>https://yanaiela.github.io/publication/syntax_distillation/</link>
+      <pubDate>Tue, 20 Oct 2020 09:11:02 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/syntax_distillation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

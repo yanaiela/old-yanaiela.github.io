@@ -3,17 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yanaiela.github.io/publication_types/0/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/publication_types/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/publication/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/reut-tsarfaty/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/shauli-ravfogel/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/publication/crowdsourcing_cc/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/victoria-basmov/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/yanai-elazar/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/yoav-goldberg/</loc>
+    <lastmod>2020-10-20T09:19:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/dan-roth/</loc>
+    <lastmod>2020-10-20T09:14:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/deepak-ramachandran/</loc>
+    <lastmod>2020-10-20T09:14:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/publication/embedding_scales/</loc>
+    <lastmod>2020-10-20T09:14:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/xikun-zhang/</loc>
+    <lastmod>2020-10-20T09:14:52+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/authors/jacob-goldberger/</loc>
+    <lastmod>2020-10-20T09:11:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yanaiela.github.io/publication/syntax_distillation/</loc>
+    <lastmod>2020-10-20T09:11:02+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yanaiela.github.io/tags/acl/</loc>
     <lastmod>2020-07-05T01:26:41+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yanaiela.github.io/post/attending-acl2020/</loc>
-    <lastmod>2020-07-05T01:26:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/authors/</loc>
     <lastmod>2020-07-05T01:26:41+03:00</lastmod>
   </url>
   
@@ -33,47 +113,12 @@
   </url>
   
   <url>
-    <loc>https://yanaiela.github.io/authors/yanai-elazar/</loc>
-    <lastmod>2020-07-05T01:26:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/</loc>
-    <lastmod>2020-07-05T01:26:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/publication_types/0/</loc>
-    <lastmod>2020-06-03T00:18:50+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yanaiela.github.io/authors/alon-jacovi/</loc>
     <lastmod>2020-06-03T00:18:50+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yanaiela.github.io/publication_types/</loc>
-    <lastmod>2020-06-03T00:18:50+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/publication/</loc>
-    <lastmod>2020-06-03T00:18:50+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/authors/shauli-ravfogel/</loc>
-    <lastmod>2020-06-03T00:18:50+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yanaiela.github.io/publication/amnesic-probing/</loc>
-    <lastmod>2020-06-03T00:18:50+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/authors/yoav-goldberg/</loc>
     <lastmod>2020-06-03T00:18:50+03:00</lastmod>
   </url>
   
@@ -198,11 +243,6 @@
   </url>
   
   <url>
-    <loc>https://yanaiela.github.io/authors/reut-tsarfaty/</loc>
-    <lastmod>2020-04-25T17:22:37+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yanaiela.github.io/authors/sameer-singh/</loc>
     <lastmod>2020-04-25T17:22:37+03:00</lastmod>
   </url>
@@ -269,16 +309,6 @@
   
   <url>
     <loc>https://yanaiela.github.io/authors/abhijit-mahabal/</loc>
-    <lastmod>2019-09-14T17:04:39+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/authors/dan-roth/</loc>
-    <lastmod>2019-09-14T17:04:39+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yanaiela.github.io/authors/deepak-ramachandran/</loc>
     <lastmod>2019-09-14T17:04:39+03:00</lastmod>
   </url>
   
