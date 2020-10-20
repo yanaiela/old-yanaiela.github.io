@@ -5,12 +5,20 @@
     <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
       <atom:link href="https://yanaiela.github.io/authors/yanai-elazar/index.xml" rel="self" type="application/rss+xml" />
     <description>Yanai Elazar</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Tue, 20 Oct 2020 09:19:24 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>lazary</copyright><lastBuildDate>Tue, 20 Oct 2020 09:35:35 +0300</lastBuildDate>
     <image>
       <url>https://yanaiela.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Yanai Elazar</title>
       <link>https://yanaiela.github.io/authors/yanai-elazar/</link>
     </image>
+    
+    <item>
+      <title>It’s not Greek to mBERT: Inducing Word-Level Translations from Multilingual BERT</title>
+      <link>https://yanaiela.github.io/publication/mbert_translate/</link>
+      <pubDate>Tue, 20 Oct 2020 09:35:35 +0300</pubDate>
+      <guid>https://yanaiela.github.io/publication/mbert_translate/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Extraordinary Failure of Complement Coercion Crowdsourcing</title>
